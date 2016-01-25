@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img src="/img/tim-better.jpg" alt="Tim Peterson" style="width: 200px;"/>
+<img src="/img/tim-better.jpg" alt="Tim Peterson" style="width: 200px;margin-bottom: 15px;"/>
 
 
 <!--![/img/tim-better.jpg](/img/tim-better.jpg)-->
