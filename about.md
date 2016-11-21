@@ -11,9 +11,8 @@ permalink: /about/
 
 I'm an Assistant Professor in the Department of Medicine at Washington University St. Louis. I study genomics, metabolomics and the quantified self of aging and mental health. Currently, my group is working on an osteoporosis project.
 
-I'm a founder at [Door of Clubs](https://www.doorofclubs.com/).
 
-My lab site is available at: [lab.timrpeterson.com](http://lab.timrpeterson.com/)
+My lab site is available at: [petersonlab.wustl.edu](http://petersonlab.wustl.edu/)
 
 [Linkedin](https://www.linkedin.com/petersontimr)
 
