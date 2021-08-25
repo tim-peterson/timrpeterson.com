@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Tim R Peterson</title>
- <link href="http://timrpeterson.com/atom.xml" rel="self"/>
- <link href="http://timrpeterson.com/"/>
- <updated>2015-08-18T09:42:00-05:00</updated>
- <id>http://timrpeterson.com</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2021-08-25T09:38:40-05:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Washington University School of Medicine St. Louis DBBS Faculty Poster Session</title>
-   <link href="http://timrpeterson.com/wusm/wustl/faculty/poster/session/2015/08/18/wusm-wustl-dbbs-faculty-poster-session.html"/>
+   <link href="http://localhost:4000/wusm/wustl/faculty/poster/session/2015/08/18/wusm-wustl-dbbs-faculty-poster-session.html"/>
    <updated>2015-08-18T09:30:00-05:00</updated>
-   <id>http://timrpeterson.com/wusm/wustl/faculty/poster/session/2015/08/18/wusm-wustl-dbbs-faculty-poster-session</id>
+   <id>http://localhost:4000/wusm/wustl/faculty/poster/session/2015/08/18/wusm-wustl-dbbs-faculty-poster-session</id>
    <content type="html">&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://dbbs.wustl.edu/Resources/Pages/calendar_event.aspx?EvID=3728&quot;&gt;FULL INFO&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Seminar Information&lt;/strong&gt;&lt;/p&gt;

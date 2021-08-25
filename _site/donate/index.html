@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Tim R Peterson</title>
+  <title>Fund the Peterson lab.</title>
   <meta name="description" content="Tim R Peterson Lab. CRISPR, Javascript, Python, Golang, Aging, Osteoporosis, Mental Health, Circadian Rhythms, genomics, metabolomics, systems biology, computational biology, biomedical engineering, chemical biology, Bisphosphonates, SSRIs, Lithium, microfluidics, materials science, computer science, point of care diagnostics, quantified self, personalized medicine.
 ">
 
@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="/css/main.css">
   <link ref="stylesheet" href="/css/jaf-bernino-sans.css" rel="stylesheet" type="text/css">
 
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/donate/">
   <link rel="alternate" type="application/rss+xml" title="Tim R Peterson" href="http://localhost:4000/feed.xml" />
 
   <!-- Icons -->
@@ -124,20 +124,76 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <img src="/img/tim-better.jpg" alt="Tim Peterson" style="width: 200px;"/>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Fund the Peterson lab.</h1>
+  </header>
+
+  <article class="post-content">
+    <p> We receive our funding mainly from the National Institutes of Health. We would be grateful for your contributions to further fund our work on aging. Click a button to copy the cryptocurrency address.</p>
+
+<!--ETH
+0x00a33C8379B03085Ad0c0B4F6FB38C63dEBa8475
+BTC
+bc1q7v2enqsjm0hzskatpkc8z200pt6eh9pm4uke75
+LTC
+ltc1ql9mq8ccg3syqge3lv00n85q862zeujy2gg7sw7
+DOGE
+DAK6vkgRBLGKh8CxsDtcyk7huayn1wLSXN
+-->
+
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
+
+<ul style="list-style:none;">
+<li style="margin: 10px">BTC 
+	<button class="btn btn-lg m-2" data-clipboard-target="#btc-target">
+		<span id="btc-target">bc1q7v2enqsjm0hzskatpkc8z200pt6eh9pm4uke75
+</span>
+	</button>
+</li>
+
+<li style="margin: 10px">ETH 
+	<button class="btn btn-lg m-2" data-clipboard-target="#eth-target">
+		<span id="eth-target">0x00a33C8379B03085Ad0c0B4F6FB38C63dEBa8475</span>
+	</button>
+</li>
+
+<li style="margin: 10px">LTC 
+	<button class="btn btn-lg m-2" data-clipboard-target="#ltc-target">
+		<span id="ltc-target">ltc1ql9mq8ccg3syqge3lv00n85q862zeujy2gg7sw7</span>
+	</button>
+</li>
+
+<li style="margin: 10px">DOGE 
+	<button class="btn btn-lg m-2" data-clipboard-target="#doge-target">
+		<span id="doge-target">DAK6vkgRBLGKh8CxsDtcyk7huayn1wLSXN</span>
+	</button>
+</li>
+
+</ul>
+
+<script>
+	var clipboard = new ClipboardJS('.btn');
+
+clipboard.on('success', function(e) {
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+
+    e.clearSelection();
+});
+
+clipboard.on('error', function(e) {
+    console.error('Action:', e.action);
+    console.error('Trigger:', e.trigger);
+});
+</script>
 
 
-<!--![/img/tim-better.jpg](/img/tim-better.jpg)-->
-<!--http://stackoverflow.com/questions/15917463/embedding-markdown-in-jekyll-html-->
+  </article>
 
-
-
-
-<!--![/img/tim-better.jpg](/img/tim-better.jpg)-->
-
-<p>I'm an Assistant Professor in the Department of Medicine at Washington University St. Louis. I study genomics, metabolomics and the quantified self of aging and mental health. Currently, my group is working on an osteoporosis project.</p>
-
-
+</div>
 
       </div>
     </div>
